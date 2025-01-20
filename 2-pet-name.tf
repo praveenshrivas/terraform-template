@@ -1,4 +1,4 @@
-"""
+/*
 Now, Navigate to the directory /root/terraform-projects/MPL. Create a new configuration file called pet-name.tf.
 This file should make use of the local_file and random_pet resource type with the below requirements:
 local_file resource details:
@@ -11,7 +11,7 @@ Length = "1"
 Prefix = "Mr"
 Separator = "."
 Once the configuration file has been created, use the terraform workflow to create this resource.
-"""
+*/
 
 resource "local_file" "my-pet" {
      filename = "/root/pet-name"
