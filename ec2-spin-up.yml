@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: This will spin up a EC2 instance
+Resources: 
+    myEC2Instance: 
+        Type: 'AWS::EC2::Instance'
+        Properties: 
+            InstanceType: 't2.micro'
+            ImageId: 'ami-0912f71e06545ad88'
